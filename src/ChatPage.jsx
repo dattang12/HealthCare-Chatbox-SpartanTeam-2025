@@ -115,7 +115,7 @@ export default function ChatPage() {
     <div className="page">
       {/* Header */}
       <header className="header">
-        <h1 className="title">HealthCare Chatbox</h1>
+        <h1 className="title">HealthCare Chatbot</h1>
         <button
           className="login-btn"
           onClick={() => {
