@@ -232,7 +232,7 @@ export default function ChatPage() {
 
       {/* Footer */}
       <footer className="footer">
-        © 2025 HealthCare Chatbox. All rights reserved.
+        © 2025 HealthCare Chatbot. All rights reserved.
       </footer>
     </div>
   );
