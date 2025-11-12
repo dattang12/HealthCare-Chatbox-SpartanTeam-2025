@@ -14,7 +14,7 @@ export default function IntroducingHealthCarePage() {
       <div className="content">
         {/* Header */}
         <header className="header">
-          <h1 className="title">HealthCare Chatbox</h1>
+          <h1 className="title">HealthCare Chatbot</h1>
           <button className="login-btn" onClick={() => navigate("/login")}>
             Log In
           </button>
@@ -31,7 +31,7 @@ export default function IntroducingHealthCarePage() {
             className="submit-button"
             onClick={() => navigate("/login")}
           >
-            Try HealthCare Chatbox →
+            Try HealthCare Chatbot →
           </button>
 
           <hr className="divider" />
@@ -42,26 +42,26 @@ export default function IntroducingHealthCarePage() {
           </p>
 
           <p className="paragraph">
-            The HealthCare Chatbox provides accurate insights and fast answers,
+            The HealthCare Chatbot provides accurate insights and fast answers,
             aiming to make health guidance simple and stress-free for everyone.
           </p>
 
           <p className="paragraph">
             Our goal is to make healthcare information accessible to all. Whether you're
             managing daily wellness, exploring treatment options, or simply learning more
-            about your health, our chatbox provides clear, evidence-based guidance that you
+            about your health, our chatbot provides clear, evidence-based guidance that you
             can trust.
           </p>
 
           <p className="paragraph">
-            Built with empathy and transparency in mind, the HealthCare Chatbox combines
+            Built with empathy and transparency in mind, the HealthCare Chatbot combines
             advanced AI technology with verified medical data to deliver information that is
             accurate, easy to understand, and available anytime you need it. 
           </p>
 
           <p className="paragraph">
             We believe that knowledge empowers people to make better decisions about their
-            health and well-being. The HealthCare Chatbox is not a replacement for
+            health and well-being. The HealthCare Chatbot is not a replacement for
             professional care — it’s a companion designed to help users prepare for doctor
             visits, interpret health advice, and feel more confident in their choices.
           </p>
@@ -78,7 +78,7 @@ export default function IntroducingHealthCarePage() {
             <h2 className="headline">About Us</h2>
             <p className="paragraph">
               We are the developer team from <strong> <a href="https://www.sjsu.edu/"> San José State University (SJSU) </a></strong> — <a href="https://www.linkedin.com/in/dattang12/">Dat Tang</a>, <a href="https://www.linkedin.com/in/cahidetuncer/">Cahide Tuncer</a>, <a href="https://www.linkedin.com/in/kate-liu-huiguan/">Kate Liu</a>, <a href="https://www.linkedin.com/in/suhaas-teja">Suhaas Vijjagiri</a>, <a href="https://www.linkedin.com/in/jie-yan-lin-b108a130b">Jie-Yan (Lothar) Lin</a>
-              . Our team combines diverse skills across frontend development, backend engineering, data science, and UI/UX design to build the HealthCare Chatbox — an intelligent, user-friendly platform that bridges technology and healthcare. Each member contributes unique expertise in software engineering, API integration, and health data research, ensuring our system is both accurate and easy to use.
+              . Our team combines diverse skills across frontend development, backend engineering, data science, and UI/UX design to build the HealthCare Chatbot — an intelligent, user-friendly platform that bridges technology and healthcare. Each member contributes unique expertise in software engineering, API integration, and health data research, ensuring our system is both accurate and easy to use.
               Guided by our shared vision of making healthcare information accessible, trustworthy, and stress-free, we are continuously refining our AI model through research, collaboration, and community feedback. Together, we strive to demonstrate how technology from SJSU students can have a real, positive impact on public health.
             </p>
           </section>
@@ -89,7 +89,7 @@ export default function IntroducingHealthCarePage() {
 
             <p className="paragraph">
               Our goal is to make healthcare guidance simple, reliable, and accessible for
-              everyone. The HealthCare Chatbox offers a range of intelligent tools designed
+              everyone. The HealthCare Chatbot offers a range of intelligent tools designed
               to assist users in understanding, managing, and improving their health with
               confidence.
             </p>
@@ -138,7 +138,7 @@ export default function IntroducingHealthCarePage() {
 
         {/* Footer */}
         <footer className="footer">
-          © 2025 HealthCare Chatbox · All rights reserved
+          © 2025 HealthCare Chatbot · All rights reserved
         </footer>
       </div>
     </div>
