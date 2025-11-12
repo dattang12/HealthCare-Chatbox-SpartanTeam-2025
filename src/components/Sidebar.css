@@ -1,0 +1,86 @@
+/* Base sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+  background-color: #000408;
+  color: white;
+  padding: 20px;
+  transition: transform 0.4s ease;
+  z-index: 1000;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.3);
+}
+
+/* When closed, slide it out of view */
+.sidebar.closed {
+  transform: translateX(-100%);
+}
+
+/* When open, show it */
+.sidebar.open {
+  transform: translateX(0);
+}
+
+/* Toggle (close) button inside sidebar */
+.toggle-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.8rem;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: transform 0.3s;
+}
+
+.toggle-btn:hover {
+  transform: scale(1.2);
+}
+
+/* Sidebar title */
+.sidebar-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+/* Menu items */
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-menu li {
+  padding: 10px 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.sidebar-menu li:hover {
+  background-color: #000000;
+}
+
+/* Floating open button (visible only when sidebar is closed) */
+.open-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: #000102;
+  color: white;
+  border: none;
+  font-size: 1.8rem;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 1100;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.open-btn:hover {
+  background-color: #000000;
+  transform: scale(1.05);
+}

@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  background-color: black; 
+}
+
+.container {
+    min-height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #111;
+  color: white;
+  height: 100vh;
+  border-right: 1px solid #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+.page {
+  background-color: #000;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  border-bottom: 1px solid #333;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.login-btn {
+  background-color: #222;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.login-btn:hover {
+  background-color: #444;
+}
+
+.main {
+  flex-grow: 1;
+  text-align: center ;
+  padding: 80px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.established {
+  color: #aaa;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.headline {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.cta-btn {
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.cta-btn:hover {
+  background-color: #e5e5e5;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #333;
+  margin: 40px 0;
+}
+
+.paragraph {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.feedback-input {
+  width: 100%;
+  max-width: 400px; 
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.submit-button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 28px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #00bcd4;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 188, 212, 0.4);
+}
+
+.section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; 
+}
+
+.services-list {
+  list-style: none;
+  padding: 0;
+  margin: 40px auto;
+  max-width: 800px;
+  text-align: left;
+}
+
+.services-list li {
+  margin: 20px 0;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #ccc;
+}
+
+.services-list strong {
+  color: #fff;
+}
+
+
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #888;
+  border-top: 1px solid #333;
+  padding: 20px;
+}
