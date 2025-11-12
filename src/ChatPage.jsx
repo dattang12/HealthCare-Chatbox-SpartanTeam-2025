@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
-// const PROXY_URL = "https://healthcare-chatbox-watsonx.onrender.com";
-const PROXY_URL = "http://localhost:3001";
+const PROXY_URL = "https://healthcare-chatbox-spartanteam-2025.onrender.com";
 
 export default function ChatPage() {
   const navigate = useNavigate();
