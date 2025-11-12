@@ -77,8 +77,8 @@ export default function IntroducingHealthCarePage() {
           <section id="about">
             <h2 className="headline">About Us</h2>
             <p className="paragraph">
-              We are the developer team from <strong> <a href="https://www.sjsu.edu/"> San José State University (SJSU) </a></strong> — a group of six passionate students and innovators specializing in computer science, artificial intelligence, and user experience design.
-              Our team combines diverse skills across frontend development, backend engineering, data science, and UI/UX design to build the HealthCare Chatbox — an intelligent, user-friendly platform that bridges technology and healthcare. Each member contributes unique expertise in software engineering, API integration, and health data research, ensuring our system is both accurate and easy to use.
+              We are the developer team from <strong> <a href="https://www.sjsu.edu/"> San José State University (SJSU) </a></strong> — <a href="https://www.linkedin.com/in/dattang12/">Dat Tang</a>, <a href="https://www.linkedin.com/in/cahidetuncer/">Cahide Tuncer</a>, <a href="https://www.linkedin.com/in/kate-liu-huiguan/">Kate Liu</a>, <a href="https://www.linkedin.com/in/suhaas-teja">Suhaas Vijjagiri</a>, <a href="https://www.linkedin.com/in/jie-yan-lin-b108a130b">Jie-Yan (Lothar) Lin</a>
+              . Our team combines diverse skills across frontend development, backend engineering, data science, and UI/UX design to build the HealthCare Chatbox — an intelligent, user-friendly platform that bridges technology and healthcare. Each member contributes unique expertise in software engineering, API integration, and health data research, ensuring our system is both accurate and easy to use.
               Guided by our shared vision of making healthcare information accessible, trustworthy, and stress-free, we are continuously refining our AI model through research, collaboration, and community feedback. Together, we strive to demonstrate how technology from SJSU students can have a real, positive impact on public health.
             </p>
           </section>
