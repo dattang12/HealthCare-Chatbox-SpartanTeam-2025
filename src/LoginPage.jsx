@@ -11,7 +11,7 @@ export default function LoginPage() {
       
       {/* Header */}
       <header className="header">
-        <h1 className="title">HealthCare Chatbox</h1>
+        <h1 className="title">HealthCare Chatbot</h1>
         <button onClick={() => navigate("/")} className="login-btn">
           Go Back to HomePage
         </button>
@@ -20,7 +20,7 @@ export default function LoginPage() {
       {/* Main Section */}
       <main className="main">
         <p className="established">Welcome Back</p>
-        <h2 className="headline">Log in to HealthCare Chatbox</h2>
+        <h2 className="headline">Log in to HealthCare Chatbot</h2>
 
         <p className="paragraph">
           Sign in easily using your Google account below.
@@ -54,7 +54,7 @@ export default function LoginPage() {
       </main>
       {/* Footer */}
       <footer className="footer">
-        © 2025 HealthCare Chatbox. All rights reserved.
+        © 2025 HealthCare Chatbot. All rights reserved.
       </footer>
     </div>
   );
